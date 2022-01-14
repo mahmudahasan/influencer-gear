@@ -1,0 +1,48 @@
+/* font styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  padding-left: 200px;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.top-banner {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: plum;
+  margin-left: 200px;
+  padding: 20px 50px;
+  border: 0;
+  border-radius: 50px;
+  transition: width 0.5s;
+}
+a:hover {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.journey h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+.journey p {
+  padding-left: 200px;
+  font-size: 25px;
+}
+.camera {
+  padding-left: 400px;
+  margin-top: 150px;
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 500px;
+}
